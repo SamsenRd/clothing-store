@@ -37,6 +37,7 @@ body{
     transition: 0.15s ease-in-out;
     position: relative;
     text-transform: uppercase;
+    font-size: 1.2rem;
 }
 .menu li a::after{
     content: "";
@@ -106,7 +107,8 @@ body{
 h2{
     text-transform: uppercase;
     text-align: center;
-    margin-top: 4em;
+    margin-top: 3em;
+    font-size: 1.5rem;
 }
 
 .img-container{
@@ -114,14 +116,14 @@ h2{
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
-    margin-top: 3.125em;
-    margin-bottom: 7em;
+    margin-top: 3em;
+    margin-bottom: 3em;
 }
 
 .pic1, .pic2, .pic3, .pic4{
     width: 250px; 
     height:350px;
-    margin-top: 2em;
+    margin-top: 0.5em;
 }
 
 .pic1:hover, 
@@ -129,8 +131,9 @@ h2{
 .pic3:hover, 
 .pic4:hover{cursor: pointer;}
 
-.section{
-    position: relative;
+.secondary-text{
+    margin-bottom: 3em;
+    font-size: 1.4rem;
 }
 
 .secondary-img{
@@ -141,12 +144,6 @@ h2{
     background-position: center;
     height: 80vh;
     margin: 20px;
-}
-
-.secondary-text{
-    position: absolute;
-    top: 0;
-    left: 50px;
 }
 
 .press{
@@ -160,6 +157,54 @@ h2{
     background-color: #ccd5ae;
 }
 
+.press-text {margin-bottom: 3em; font-size: 1.5rem;}
+
 .press-img {width: 150px;}
+
+.ethical-fabrics {margin-bottom: 3em;}
+
+.ethical-fabrics-title{margin-bottom: 3em;}
+
+.fabric-images{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.container{
+    position: relative;
+    display: inline-block;
+}
+
+.container img{
+    display: block;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.overlay-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 500;
+    font-size: 2rem;
+}
+
+.bottom-img{
+    background-image: url(images/beach-girls.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: 80vh;
+    margin: 20px;
+}
 
 
