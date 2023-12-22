@@ -72,7 +72,7 @@ body{
 
 
 .main-img{
-    background-image: url(images/woman-swimwear.jpg);
+    background-image: url(images/first-pic.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -261,6 +261,33 @@ li:hover{
 
     .secondary-text{
         font-size: 1.3rem;
+    }
+
+    .main-img{
+        background-image: url(images/woman-swimwear2.jpg);
+        background-attachment:scroll;
+        background-position: center;
+        height: 60vh;
+        margin: 20px;
+    }
+
+    .secondary-img{
+        background-image: url(images/female-photo\ copy.jpg);
+        background-attachment:scroll;
+        height: 60vh;
+        margin: 20px;
+    }
+
+    .bottom-img{
+        background-image: url(images/beach-girls\ copy.png);
+        background-attachment: scroll;
+        height: 60vh;
+        margin: 20px;
+    }
+
+    .subscribe{
+        margin-left: 20px;
+        margin-right: 20px;
     }
 
     .nav-bar{
