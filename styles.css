@@ -70,29 +70,6 @@ body{
 
 #check{ display: none;}
 
-@media(max-width: 610px){
-    .menu{
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        width: 80%;
-        height: 100vh;
-        position: fixed;
-        top: 0;
-        right: -100%;
-        z-index: 100;
-        background-color: var(--color2);
-        transition: all 0.2s ease-in-out;
-    }
-    .menu li{margin-top: 40px;}
-    .menu li a{padding: 10px;}
-    .open-menu, .close-menu{display: block;}
-    #check:checked ~ .menu{right: 0;}
-
-    .secondary-text{
-        font-size: 1.3rem;
-    }
-}
 
 .main-img{
     background-image: url(images/woman-swimwear.jpg);
@@ -212,6 +189,7 @@ h2{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
     margin-bottom: 3em;
 }
 
@@ -224,7 +202,80 @@ button{
     background-color: #283618;
     color: #fefae0;
     padding: 10px 15px;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
 }
 
-button:hover{cursor: pointer;}
+button:hover {cursor: pointer;}
+
+footer{
+    margin-top: 70px;
+    background-color: #283618;
+    color:#fefae0;
+    padding: 3.125em 20px 2em;
+}
+
+ul, .socials, .footer-sections{
+    display: flex;
+}
+
+li{
+    list-style: none;
+    margin-right: 1.25em;
+    cursor: pointer;
+}
+
+.socials{
+    justify-content: space-between;
+}
+
+.fa-brands{ 
+    font-size: 1.875em;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.copywrite{
+    font-size: 0.9375rem;
+}
+
+@media(max-width: 610px){
+    .menu{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 80%;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        right: -100%;
+        z-index: 100;
+        background-color: var(--color2);
+        transition: all 0.2s ease-in-out;
+    }
+    .menu li{margin-top: 40px;}
+    .menu li a{padding: 10px;}
+    .open-menu, .close-menu{display: block;}
+    #check:checked ~ .menu{right: 0;}
+
+    .secondary-text{
+        font-size: 1.3rem;
+    }
+
+    .footer-sections{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    ul{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .socials{
+        text-align: center;
+    }
+}
