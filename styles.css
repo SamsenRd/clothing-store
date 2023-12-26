@@ -70,9 +70,15 @@ body{
 
 #check{ display: none;}
 
+.main-title{
+    font-family: 'Tangerine', cursive;
+    font-size: 80px;
+    text-align: center;
+    margin: 30px;
+}
 
 .main-img{
-    background-image: url(images/first-pic.jpg);
+    background-image: url(images/6.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -263,8 +269,12 @@ li:hover{
         font-size: 1.3rem;
     }
 
+    .main-title{
+        font-size: 60px;
+    }
+
     .main-img{
-        background-image: url(images/woman-swimwear2.jpg);
+        background-image: url(images/6.png);
         background-attachment:scroll;
         background-position: center;
         height: 60vh;
