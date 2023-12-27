@@ -7,6 +7,4 @@ signUpBtnEl.addEventListener('click', function(e){
     document.getElementById("thank-you").style.display = "block";
     document.getElementById('section-title').style.display = "none";
     document.getElementById('subscribe').style.display = "none";
-    document.querySelector("section-thanks").innerHTML = 
-        `<div>Hi there everyone!</div>`
 })
