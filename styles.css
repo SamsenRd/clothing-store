@@ -213,8 +213,12 @@ button{
 
 button:hover {cursor: pointer;}
 
+.section-thanks{
+    margin-top: 20px;
+}
+
 footer{
-    margin-top: 70px;
+    margin-top: 50px;
     background-color: #283618;
     color:#fefae0;
     padding: 3.125em 20px 2em;
